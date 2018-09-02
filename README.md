@@ -1,24 +1,14 @@
-# README
+# RailsApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A rails web application built using rails_admin, devise and cancancan.
 
-Things you may want to cover:
+# Features
 
-* Ruby version
+• Ruby version 2.5.1
 
-* System dependencies
+• Rails version 5.2.1
 
-* Configuration
+• Authentication (Devise)
 
-* Database creation
+• Authorization (CanCanCan) 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
