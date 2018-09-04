@@ -1,0 +1,17 @@
+<p>
+  <b>First Name:</b>
+  <%=h @user.first_name %>
+</p>
+
+<p>
+  <b>Last Name:</b>
+  <%=h @user.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @user.email %>
+</p>
+
+
+<%= link_to 'Show', user_path(@user) %>

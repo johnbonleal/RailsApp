@@ -4,7 +4,14 @@ class ApplicationController < ActionController::Base
     before_action :authenticate_user!
 
     def after_sign_in_path_for(resource)
-        members_path
+        if resource.role == 'super_admin'
+            rails_admin_path
+        elsif resource.role == 'admin'
+            admin_index_path
+        else
+            member_index_path
+        end
+        
     end
     
 end
